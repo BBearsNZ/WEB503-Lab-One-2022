@@ -16,7 +16,7 @@
         <script src="index.js" async defer></script>
 
     
-        <! -- The <ul> *LISTS* HTML element represents an unordered list of items, typically rendered as a bulleted list. -->
+        <! -- The List HTML element represents an unordered list of items, typically rendered as a bulleted list. -->
         <h1>Shopping List</h1>
             <ul>
             <li>A cat</li>
@@ -31,7 +31,7 @@
         </ul>
 
 
-    <! -- The <blockquote> *QUOTES* HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation. -->
+    <! -- The blockquote HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation. -->
         <h1>Cat quote of the day</h1>
         <figure>
             <blockquote cite="https://www.cattipper.com/famous-cat-quotes.html">
@@ -43,10 +43,137 @@
     </body>
 </html>
 
-<! -- The <img> HTML element embeds an image into the document.. -->
+<! -- The img HTML element embeds an image into the document.. -->
 <h1>Cat of the day</h1>
+
+<! -- The details HTML element creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. -->
+<details>
+    <summary>The Tokinese Cat</summary>
+    Tonkinese is a domestic cat breed produced by crossbreeding between <br>
+    the Siamese and Burmese. Members of the breed share many of their <br>
+    parents' distinctively lively, playful personality traits and are <br>
+    similarly distinguished by a pointed coat pattern in a variety of colours. <br>
+</details>
+<br>
+<details>
+    <summary>Colour point variations of Tonkinese cats</summary>
+    Tonkinese are currently officially recognized by the Cat Fanciers' <br>
+     Association (CFA) in four base colors: natural (a medium brown), <br>
+     champagne (a paler buff-beige), blue, and platinum. Some European <br>
+     associations also accept red, cream, caramel, apricot and tortoiseshell, <br>
+      cinnamon and fawn.
+</details>
+<br>
+
+<details>
+    <summary>Why you shouldn't get a Toninese cat</summary>
+    <h1>Top 4 reasons</h1>
+    <ul>
+    <li>Tonkinese cats are extremely needy, they will ensalve you with their various demands all hours of the day</li>
+    <li>RIP anything nice you own, they will scratch it, break it, chew it or steal and burry it.</li>
+    <li>You will never get a decent nights sleep again</li>
+    <li>They will jump into anyones car and hitch a ride, so you may never see them again. (is that a negetive?)</li>
+</ul>
+</details>
+<br>
+
 <img class="fit-picture"
      src="https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/tonkinese-card-small.jpg?bust=1535569506"
      alt="I'm the best cat">
 
- <! -- The <img> HTML element embeds an image into the document.. -->   
+ <! -- The button HTML element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology. --> 
+ <h1>Button</h1>  
+ <button class="favorite styled"
+        type="button">
+    Click if your cat is the best
+</button>
+<br>
+
+<h1>Superheroes with a cat</h1>
+<! -- The colgroup HTML element defines a group of columns within a table. --> 
+<table>
+    <caption>Beside every great superhero is a cat</caption>
+    <colgroup>
+        <col>
+        <col span="2" class="Superhero">
+        <col span="2" class="cat">
+    </colgroup>
+    <tr>
+        <td>Superhero</td>
+        <th scope="col">Captain Marvel</th>
+        <th scope="col">Supergirl</th>
+        <th scope="col">Catwoman</th>
+        <th scope="col">Bucky Barnes</th>
+    </tr>
+    <tr>
+        <th scope="row">Cat Name</th>
+        <td>Chewie</td>
+        <td>Streaky</td>
+        <td>Isis</td>
+        <td>Alpine</td>
+    </tr>
+</table>
+<br>
+<! -- The form HTML element represents a document section containing interactive controls for submitting information. -->
+
+<h1>Enter the 'Best Cat' competition</h1>
+<form action="" method="get" class="form-example">
+    <div class="form-example">
+      <label for="name">Your name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="option">Your cat's name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Enter!">
+    </div>
+  </form>
+  
+  <! -- The iframe HTML element represents a document section containing interactive controls for submitting information. -->
+<h1>KattenKabinet</h1>
+<p>The KattenKabinet is an art museum in Amsterdam devoted to works depicting cats. works of art by Pablo Picasso, Rembrandt, Henri de Toulouse-Lautrec and Corneille.</p>
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="900"
+    height="600"
+    src="https://www.kattenkabinet.nl/">
+</iframe>
+
+<br>
+&nbsp;&nbsp;
+<! -- The option HTML element represents a document section containing interactive controls for submitting information. -->
+<h1> Question with an option</h1>
+<label for="pet-select">What is your cat?:</label>
+<br>
+<select id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Tonkinese</option>
+    <option value="cat">Birman</option>
+    <option value="hamster">Ragdoll</option>
+    <option value="parrot">Brittish Blue</option>
+    <option value="spider">Sphynx</option>
+    <option value="goldfish">Maine Coon</option>
+</select>
+
+<br>
+<! -- The video HTML element represents a document section containing interactive controls for submitting information. -->
+
+<h1>Cat video</h1>
+
+<video controls width="500">
+
+    <source src="/media/cc0-videos/flower.webm"
+            type="video/webm">
+
+    <source src="/media/cc0-videos/flower.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+<br>
+<h1>Cats heading 1</h1>
+    <h2>cats heading 2</h2>
+        <h3>cats heading 3</h3>
+            <h4>cats heading 4</h4>
